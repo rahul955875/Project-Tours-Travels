@@ -61,6 +61,7 @@ html,body{
     text-align: center;
     justify-content: space-around;
     box-shadow: var(--p10) 0 var(--p10) rgba(128, 128, 128, 0.2);
+    align-items: center;
     position:fixed;
     z-index: 100;
     background-color: var(--white);   
@@ -115,13 +116,16 @@ a{
     background-color: var(--lightblue);
     margin-left: -5px;
 }
-.header .navbar .nav-right .moon i{
+.header .navbar .moon {
+    position: absolute;
+    right: 5%;
+    /* display: none; */
     width: 50px;
     font-size: var(--f30);
     /* transform: rotate(-10deg); */
     margin-left: var(--p30);
 }
-.header .navbar .nav-right .fa-moon{
+.header .navbar .fa-moon{
     transform: rotate(-10deg);
 }
 .animate{

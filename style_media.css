@@ -9,13 +9,14 @@
         padding: var(--p10);
     }
     
-    .header .navbar .nav-right .moon{
-        display: none;
+    .header .navbar .moon{
+        /* display: none ; */
+        right: 20%;
     }
-    .header .navbar .nav-right .setting{
+    .header .navbar .setting{
         position: absolute;
-        top: -8%;
-        left: -20%;
+        /* top: -6%; */
+        right: 2%;
         /* right: 2%; */
         /* z-index: 22; */
     }
@@ -38,7 +39,7 @@
     .header .navbar .nav-right ul a{
         color: white;
     }
-    .header .navbar .nav-right .setting {
+    .header .navbar .setting {
         font-size: var(--f20);
         border: 1px solid var(--black);
         padding: var(--p5) var(--p10);
@@ -346,12 +347,14 @@
         padding: 0 var(--p30);
     }
 
-    .header .navbar .nav-right .setting{
+    .header .navbar .setting{
         position: absolute;
-        top: -8%;
-        left: -10%;
-        /* right: 2%; */
+        /* top: -8%; */
+        right: 2%;
         /* z-index: 22; */
+    }
+    .header .navbar .moon{
+        right: 10%;
     }
     .nav-right{
         transform: translateX(100%);
@@ -372,7 +375,7 @@
     .header .navbar .nav-right ul a{
         color: white;
     }
-    .header .navbar .nav-right .setting {
+    .header .navbar .setting {
         font-size: var(--f20);
         border: 1px solid var(--black);
         padding: var(--p5) var(--p10);
@@ -658,7 +661,11 @@
     .main-heading{ 
         padding:var(--p50);
     }
-    
+    /* =================header sec============= */
+    .header .navbar .moon{
+
+        right: 1%;
+    }
 /* ======================================= */
     .form-sec .form-tour{
         width: 100%;

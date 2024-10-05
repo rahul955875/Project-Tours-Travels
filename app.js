@@ -5,11 +5,11 @@ let isVisible = false;
  setting.addEventListener("click",()=>{
     if(!isVisible){
         navRight.style.transform = "translateX(0)"
-        setting.style.left = "80%"
+        // setting.style.left = "80%"
     }
     else{
         navRight.style.transform = "translateX(100%)";
-        setting.style.left = "-20%"
+        // setting.style.right = "2%"
     }
     isVisible = !isVisible;
  })
