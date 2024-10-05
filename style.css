@@ -116,9 +116,26 @@ a{
     margin-left: -5px;
 }
 .header .navbar .nav-right .moon i{
+    width: 50px;
     font-size: var(--f30);
+    /* transform: rotate(-10deg); */
+    margin-left: var(--p30);
+}
+.header .navbar .nav-right .fa-moon{
     transform: rotate(-10deg);
-    margin-left: var(--p20);
+}
+.animate{
+    animation: animate 0.5s ease;
+}
+@keyframes animate {
+    from{
+        color: black;
+        transform: rotate(-10deg);
+    }
+    to{
+        color: orange;
+        transform: rotate(360deg);
+    }
 }
 .setting{
     display: none;
